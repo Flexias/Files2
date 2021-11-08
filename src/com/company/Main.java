@@ -15,11 +15,11 @@ public class Main {
 
     public static void main(String[] args) {
         ArrayList<String> waySave = new ArrayList<String>();
-        File dir = new File("E://Games//savegames");
-        waySave.add("E://Games//savegames//save1.dat");
-        waySave.add("E://Games//savegames//save2.dat");
-        waySave.add("E://Games//savegames//save3.dat");
-        String wayZip = "E://Games//savegames//zip.zip";
+        File dir = new File("Games//savegames");
+        waySave.add("Games//savegames//save1.dat");
+        waySave.add("Games//savegames//save2.dat");
+        waySave.add("Games//savegames//save3.dat");
+        String wayZip = "Games//savegames//zip.zip";
         GameProgress gameProgress1 = new GameProgress(60, 3, 20, 8.6);
         GameProgress gameProgress2 = new GameProgress(25, 5, 80, 35.3);
         GameProgress gameProgress3 = new GameProgress(52, 2, 35, 12.4);
